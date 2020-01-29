@@ -1,0 +1,317 @@
+{
+	"DrawDelay": 60.0,
+	"RenderResolution": {
+		"Height": 2048,
+		"Width": 2048
+	},
+	"ResultResolution": {
+		"Height": 1024,
+		"Width": 1024
+	},
+	"ResultPath": {
+		"Path": "RustMap"
+	},
+	"BackgroundTexturePath": {
+		"Path": "RustMap\\textures\\backgroundtexture.png"
+	},
+	"LightConfiguration": {
+		"AmbientColor": {
+			"A": 1.0,
+			"B": 1.0,
+			"G": 1.0,
+			"R": 1.0
+		},
+		"AmbientIntensity": 0.2,
+		"LightColor": {
+			"A": 1.0,
+			"B": 1.0,
+			"G": 1.0,
+			"R": 1.0
+		},
+		"LightDirection": {
+			"X": 0.0,
+			"Y": -1.0,
+			"Z": -1.0
+		},
+		"LightIntensity": 1.0,
+		"SpecularColor": {
+			"A": 1.0,
+			"B": 1.0,
+			"G": 1.0,
+			"R": 1.0
+		},
+		"SpecularIntensity": 0.2,
+		"RaycastLayers": [
+			"Terrain", 
+			"Water", 
+			"World"
+		]
+	},
+	"DetailsConfiguration": {
+		"MaterialConfigurations": [
+			{
+				"Patterns": [
+					"rock"
+				],
+				"TexturePath": {
+					"Path": "RustMap\\textures\\rockstexture.png"
+				}
+			},
+			{
+				"Patterns": [
+					"wooden_crate",
+					"pallet_stacks",
+					"pallet_boxes",
+					"retaining_wall_cover",
+					"oiljack_main",
+					"wood"
+				],
+				"TexturePath": {
+					"Path": "RustMap\\textures\\woodtexture.png"
+				}
+			},
+			{
+				"Patterns": [
+					"road",
+					"carpark",
+					"loading_bay_lane",
+					"train_track",
+					"tire",
+					"trash_bag_pile",
+					"asphalt",
+					"coal_pile",
+					"runway"
+				],
+				"TexturePath": {
+					"Path": "RustMap\\textures\\asphalttexture.png"
+				}
+			},
+			{
+				"Patterns": [
+					"harbor_1_grounds",
+					"harbor_2_grounds",
+					"wall",
+					"barricade_concrete",
+					"helipad",
+					"bus_stop",
+					"concrete_slabs",
+					"rowhouse",
+					"checkpoint_single",
+					"outbuilding",
+					"compound_gate",
+					"loading_platform",
+					"pavement",
+					"range_ground",
+					"range_bridge",
+					"range_halls",
+					"range_core_exterior",
+					"large_vent",
+					"launch_site_ground",
+					"rocket_factory",
+					"space_center",
+					"lighthouse",
+					"conc_pile",
+					"industrial_sewage_tank",
+					"sewer_tunnel",
+					"tunnel.double.entrance",
+					"office_bld"
+				],
+				"TexturePath": {
+					"Path": "RustMap\\textures\\concretetexture.png"
+				}
+			},
+			{
+				"Patterns": [
+					"barricade_sandbags",
+					"water_drum",
+					"road_cone",
+					"crate_cover",
+					"cardboard_box",
+					"floating_raft_wreck",
+					"floating_sail",
+					"floating_planks"
+				],
+				"TexturePath": {
+					"Path": "RustMap\\textures\\misctexture.png"
+				}
+			},
+			{
+				"Patterns": [
+					"warehouse",
+					"truck_cabin",
+					"trailer",
+					"shipping_container",
+					"train_wagon",
+					"fuel_tank",
+					"forklift",
+					"portacabin",
+					"power_generator",
+					"electrical_box",
+					"industrial_storage_tank",
+					"pipeline",
+					"industrial_bld",
+					"silo",
+					"stairs",
+					"conveyor_belt",
+					"lightpost",
+					"substation",
+					"crane",
+					"watch_tower",
+					"bollard",
+					"barge",
+					"tugboat",
+					"powerline",
+					"sedan_a_wrecked",
+					"truck_wreck",
+					"cover",
+					"truck_trailer",
+					"water_catcher",
+					"walkway",
+					"ac_unit",
+					"antenae",
+					"awning",
+					"range_ramp",
+					"rocket_payload",
+					"rocket_boosters",
+					"range_rails",
+					"rocket_wagon",
+					"floodlights",
+					"ground_pipes",
+					"pipe_pile",
+					"patrol_helicopter",
+					"turret",
+					"cobalt_office_sign",
+					"industrial_prop",
+					"pigeon_nest_industrial",
+					"remnant_container",
+					"hangar_airfield",
+					"spheretank",
+					"dish_optical",
+					"dish_radio",
+					"dish_base",
+					"level",
+					"burner",
+					"exhausts",
+					"gas_tank",
+					"heli_cockpit",
+					"overpass",
+					"range_overhang",
+					"m2bradley_junkyard",
+					"quarry_main",
+					"sewer_chimney",
+					"water_tower",
+					"tunnel.double.bridge",
+					"main_arm",
+					"dredge",
+					"windmill"
+				],
+				"TexturePath": {
+					"Path": "RustMap\\textures\\industrialtexture.png"
+				}
+			},
+			{
+				"Patterns": [
+					"barge_coal"
+				],
+				"TexturePath": {
+					"Path": "RustMap\\textures\\sandtexture.png"
+				}
+			},
+			{
+				"Patterns": [
+					"brick_pile",
+					"rubble_pile",
+					"junk_pile",
+					"junkpile",
+					"junkyard_mound"
+				],
+				"TexturePath": {
+					"Path": "RustMap\\textures\\junktexture.png"
+				}
+			},
+			{
+				"Patterns": [
+					"ice_sheet",
+					"iceberg"
+				],
+				"TexturePath": {
+					"Path": "RustMap\\textures\\snowtexture.png"
+				}
+			},
+			{
+				"Patterns": [
+					"ice_lake"
+				],
+				"TexturePath": {
+					"Path": "RustMap\\textures\\icetexture.png"
+				}
+			},
+		],
+		"RaycastLayers": [
+			"Terrain", 
+			"Water", 
+			"World"
+		]
+	},
+	"WaterConfiguration": {
+		"MaxDepth": 5.0,
+		"MinOpacity": 0.5,
+		"TexturePath": {
+			"Path": "RustMap\\textures\\watertexture.png"
+		},
+		"RaycastLayers": [
+			"Terrain",
+			"World"
+		]
+	},
+	"SplatConfigurations": [
+		{
+			"Index": 0,
+			"TexturePath": {
+				"Path": "RustMap\\textures\\splat0texture.png"
+			}
+		},
+		{
+			"Index": 1,
+			"TexturePath": {
+				"Path": "RustMap\\textures\\splat1texture.png"
+			}
+		},
+		{
+			"Index": 2,
+			"TexturePath": {
+				"Path": "RustMap\\textures\\splat2texture.png"
+			}
+		},
+		{
+			"Index": 3,
+			"TexturePath": {
+				"Path": "RustMap\\textures\\splat3texture.png"
+			}
+		},
+		{
+			"Index": 4,
+			"TexturePath": {
+				"Path": "RustMap\\textures\\splat4texture.png"
+			}
+		},
+		{
+			"Index": 5,
+			"TexturePath": {
+				"Path": "RustMap\\textures\\splat5texture.png"
+			}
+		},
+		{
+			"Index": 6,
+			"TexturePath": {
+				"Path": "RustMap\\textures\\splat6texture.png"
+			}
+		},
+		{
+			"Index": 7,
+			"TexturePath": {
+				"Path": "RustMap\\textures\\splat7texture.png"
+			}
+		},
+	]
+}
